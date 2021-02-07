@@ -1,0 +1,10 @@
+﻿<?php
+$link=("localhost", "root" ,"");
+$conn=(auraelchurch, $link);
+if($conn){
+echo "conntected successfully";
+}
+else{
+echo "failed"
+}
+?>

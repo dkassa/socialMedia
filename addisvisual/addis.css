@@ -1,0 +1,201 @@
+html{
+    width:100%;
+    height:100%;
+    
+}
+body{
+
+    color:white;
+}
+.last{
+    background-image: url("https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=chair-cutlery-diner-941861.jpg&fm=jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mena{
+    float: none;
+    margin: auto auto;
+    display:flex;
+    margin-bottom: 20px;
+    justify-content:center;
+    align-items: center;
+}
+.navvbar{
+    background-color:black;
+}
+#banner{
+position: relative;
+ background-image:url(agelgil_pic.jpeg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height:400px;
+opacity:5;
+margin-bottom: 10px;
+}
+
+#itims{
+    background-color: black;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+   }
+   .img{
+       position: absolute;
+       bottom:110px;
+       left:45%;
+       animation-duration: 4s;
+       animation-name: agelgil;
+       animation-delay: 1s;
+       animation-iteration-count: infinite;
+   }
+   .sol{
+       color:red;
+       animation-duration: 4s;
+       animation-name: agelgill;
+       animation-delay: 1s;
+       animation-iteration-count: infinite;
+   }
+   .col-centered{
+    float: none;
+    margin: auto auto;
+    background-color: black;
+}
+   
+   @keyframes agelgil{
+       0%{
+           transform: translateX(110px);
+       }
+       45%{
+           transform: translatexX(-800px);
+       }
+       70%{
+           transform:rotate(360deg);
+       }
+       100%{
+
+       }
+   }
+   @keyframes agelgill{
+    0%{
+        transform: translateX(110px);
+    }
+    45%{
+        transform: translatexX(800px);
+    }
+    70%{
+        transform:rotate(360deg);
+    }
+    100%{
+
+    }
+}
+
+   .page-footer{
+       margin-top:20px;
+   }
+   
+ /* #imglayer{
+    position:relative;
+    height:500px;
+    background-color: black;
+    margin-bottom:20px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+/*
+.img1{
+    position:absolute;
+    left:45%;
+    margin-top:110px;
+}
+.img2{
+    position:absolute;
+    left:37%;
+    margin-top:110px;
+}
+.img3{
+    position:absolute;
+    left:53%;
+    margin-top:110px;
+}
+.img4{
+    position:absolute;
+    left:45%;
+    margin-top:50px;
+}
+.img5{
+    position:absolute;
+    left:45%;
+    margin-top:170px;
+}
+.img1,.img2,.img3,.img4,.img5{
+    border:5px solid red;
+}
+.imge2{
+transform:scale(1.5);
+z-index: 3;
+
+}
+*/
+/*.imgg{
+    position:absolute;
+    left:10px;
+    padding-top: 20px;
+}
+.immg{
+    position: absolute;
+    right:10px;
+    padding-top: 20px;
+}*/
+@media screen and (max-width: 600px) {
+    body{
+     margin-left: 25px;
+     margin-right: 25px;
+ }
+ #banner{
+   
+     display:block;
+     align-items: center;
+     align-content: center;
+     overflow: hidden;
+     color: white;
+     }
+     
+         .img1{
+             position:absolute;
+             left:25%;
+             margin-top:110px;
+         }
+         .img2{
+             position:absolute;
+             left:17%;
+             margin-top:110px;
+         }
+         .img3{
+             position:absolute;
+             left:33%;
+             margin-top:110px;
+         }
+         .img4{
+             position:absolute;
+             left:25%;
+             margin-top:50px;
+         }
+         .img5{
+             position:absolute;
+             left:25%;
+             margin-top:170px;
+         }
+     }
+     .formm{
+         margin-top:20px;
+         background-color:black;
+         margin-bottom:20px;
+     }

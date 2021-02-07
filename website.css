@@ -1,0 +1,252 @@
+body{
+	background-color:grey;
+	text-color:black;
+	
+	
+	}
+a:link{
+	text-align:justify;
+	
+	color:black;
+	font-style:italic;
+	}
+a:active{
+	color:white;
+}
+a:hover{
+	color:red;
+}
+a:visited{
+	color:black;
+}
+
+
+
+	
+	
+.jumbotron{
+	background-color:lightgrey;
+	text-align:center;
+	height:400px;
+	width:800px;
+	overflow:scroll;
+	position:absolute;
+	right:225px;
+	left:270px;
+	top:100px;
+	
+}
+.jumbotron li{
+	text-align:justify;
+}
+.jumbotron iframe{
+	position:absolute;
+	right:0px;
+	left:0px;
+	top:0px;
+	text-align:center;
+	border:5px solid green;
+	background-color:lightblue;
+
+
+}
+
+
+
+
+.inspired {
+	position:absolute;
+	left:50px;
+	top:200px;
+	text-color:green;
+	font-size:24px;
+	}
+
+	
+.left{
+	width:265px;
+	height:1600px;
+	background-color:light-grey
+;
+	position:absolute;
+	left:0px;
+	top:100px;
+}
+
+
+.headding{
+	position:absolute;
+	
+	top:0px;
+	width:100%;
+	height:100px;
+	background-color:red;
+}
+
+.tabble{
+	position:absolute;
+	
+	top:610px;
+	left:265px;
+	background-color:lightgrey;
+	
+	}
+table, th, td{
+	border:11px solid grey;
+
+}
+th, td{
+	width:201px;
+	height:120px;
+	overflow:auto;
+}
+
+.clearfix{
+	overflow:auto;
+}
+
+.rightmargin{
+	position:absolute;
+	right:0px;
+	top:100px;
+	width:265px;
+	height:1600px;
+	background-color:lightgrey;
+}
+.rightmargin li{
+	text:align:center;
+	font-size:24px;
+	font-family:Aerial;
+	top:250px;
+}
+#linkss{
+	position:fixed;
+	right:0px;
+	}
+#linkss li:hover { opacity: 0.3; filter: alpha(opacity=30); 
+}
+#linkss li{
+	list-style-type:none;
+	font-size:13px;
+	}
+
+tr:nth-child(even){
+	background-color:grey;
+}
+#navigate{
+	position:absolute;
+	margin:auto;
+}
+#navigate ul li{
+	display:inline-block;
+	list-style-type:none;
+	width:150px;
+	font-size:15px;
+	height:50px;
+	color:white;
+	}
+#demo{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	height:80px;
+background-color:red;
+}
+.contact{
+position:absolute;
+
+left:50%;
+bottom:0px;
+}
+
+#demo ul li{
+	display:inline-block;
+	list-styel-type:none;
+	font-size:22px;
+	height:25px;
+	width:150px;
+	align:justify;
+	padding-top:10px;
+	padding-bottom:25px;
+
+}
+#time{
+	position:absolute;
+	left:900px;
+	top:50px;
+	color:lightgrey;
+	font-weight:bold;
+	color:black
+}
+
+.proverb{
+position:absolute;
+top:150px;
+color:red;
+
+left:50%;
+color:black;
+}
+.pagination{
+	position:absolute;
+	bottom:50px;
+	left:50%;
+	top:1775px;
+}
+.find{
+	top:60px;
+	right:25px;
+	position:absolute
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+Try it Yourself »
+
+	
+
+	
+	

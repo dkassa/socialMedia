@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Original:  Dion (biab@iinet.net.au) -->
+<!-- Web Site:  http://www.iinet.net.au/~biab -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+
+<!-- Begin
+var item = new Array();
+
+/* Here is where all the magic happens.  
+    Just enter as many additional pages that
+    that you want to search, then fill in the
+    additional listings for each page.
+*/
+
+// "Page Name","path","Page Title","Many,Key,Words","Descriptive Comments"
+
+c=0; item[c]=new Array("index.html","","DemoSite","index,main,start,home,front","Demonstration search engine data about an imagined but probable internet site.");
+c++; item[c]=new Array("about.htm","","About Me","about,author,contact,email,who","Contact details and general information about the creator of the site and what the site is about.");
+c++; item[c]=new Array("links.htm","","Links page","links,more,where,similar,friends","Links to my favourite sites which I find interesting. Other friends sites which have similar interests to my own.");
+c++; item[c]=new Array("main.htm","main/","Main Page","content,main,focus","The main part of my site which contains what you have come to see. Lots of stuff like that and more great things. All in a sub directory.");
+c++; item[c]=new Array("logo.jpg","main/images/","Link Logo","link,image,logo,graphic","The logo.jpg is just a small image which you can place on your site as a link to me. It's in a second level subdirectory.");
+
+page="<html><head><title>Search Results</title></head><body bgcolor='white'><center><table border=0 cellspacing=10 width=80%>";
+
+
+function search(frm) {
+win = window.open("","","scrollbars");
+win.document.write(page);
+txt = frm.srchval.value.split(" ");
+fnd = new Array(); total=0;
+for (i = 0; i < item.length; i++) {
+fnd[i] = 0; order = new Array(0, 4, 2, 3);
+for (j = 0; j < order.length; j++)
+for (k = 0; k < txt.length; k++)
+if (item[i][order[j]].toLowerCase().indexOf(txt[k]) > -1 && txt[k] != "")
+fnd[i] += (j+1);
+}
+for (i = 0; i < fnd.length; i++) {
+n = 0; w = -1;
+for (j = 0;j < fnd.length; j++)
+if (fnd[j] > n) { n = fnd[j]; w = j; };
+if (w > -1) total += show(w, win, n);
+fnd[w] = 0;
+}
+win.document.write("</table><br>Total found: "+total+"<br></body></html>");
+win.document.close();
+}
+function show(which,wind,num) {
+link = item[which][1] + item[which][0]; 
+line = "<tr><td><a href='"+link+"'>"+item[which][2]+"</a> Score: "+num+"<br>";
+line += item[which][4] + "<br>"+link+"</td></tr>";
+wind.document.write(line);
+return 1;
+}
+//  End -->
+</script>
+ 
+<link rel="stylesheet"  type="text/css" href="website.css">
+<script src="copyyright.js"></script>
+
+ <script>  document.getElementById("demo").innerHTML = "JavaScript";
+    </script>
+<base target="main">
+
+</head>
+<title>Inspirational website</title>
+<body>
+    
+     
+<div class="headding">
+<div id="navigate">
+<ul>
+<li><a href="index.html"target="self">Home</a></li>
+<li><a href="aboutus.html" target="self">about us</a></li>
+<li>new articles</li>
+<li>latest news</li>
+<li id="demo"></li>
+<li><div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div></li>
+<li>soul food</li>
+<li>quick relief</li>
+<li>true musics</li>
+<li>true movies</li>
+<li>true interviews</li>
+<li><a href="login.html"target="self">login</a></li>
+<li><a href="Signup.html" target="self">Signup</a></li>
+</ul></div></div>
+
+<div class="find">
+<center>
+
+<form method=get action="javascript:void(0)" onsubmit="search(this); return false;">
+<tr><td><input type=text name=srchval value=""><input type=submit value="Search"></td></tr>
+</form>
+
+</center>
+</div>
+
+<p><center>
+<font face="arial, helvetica" size="-2">Free JavaScripts provided<br/>
+by <a href="http://javascriptsource.com">The JavaScript Source</a></font>
+</center><p>
+
+<!-- Script Size:  3.16 KB -->
+<!--<div class="container" >-->
+<div class="jumbotron">
+<iframe width="800" height="400" src="https://www.youtube.com/embed/rOndmfJAqvo?list=RDrOndmfJAqvo" frameborder="0" name=main autostart=0 allowfullscreen></iframe>
+</div>
+<div class="rightmargin">
+<ul style="list-style-type:none;">
+<li><a href="Faith.JPG">Faith</a></li>
+<li><a href="love.JPG">Love</a></li>
+<li><a href="Hope.JPG">Hope</a></li>
+<li><a href="Courage.JPG" >Courage</a></li>
+<li><a href="Preseverance.PNG">Preseverance</a></li>
+<!--<li><div class="blinking"><div class="proverb"><h4><strong>What goes round comes round</strong></div></div></li>-->
+<ul id="linkss"><li><a href="https://www.facebook.com" target="self"><img src="facebook.PNG" ></a></li>
+<li><a href="https://www.twitter.com" target="self"><img src="twitter.PNG"></a></li>
+<li><a href="http://www.ethsat.com"target="self"><img src="esat.PNG"></a></li>
+<li><a href="http://www.addiszefen.com" target="self"><img src="addiszefen.PNG"></a></li>
+</ul>
+</ul>
+
+</div>
+
+<div class="left">
+<p><a href="uhahu.JPG"><span background-color="red"> <h4>Ethiopian letters<h4></span></a></p>
+<p><img src="uhahu.JPG" /></p>
+</div>
+<div class="clearfix">
+<table class="tabble" >
+<tr>
+<span id="box"><th><a href="https://www.youtube.com/embed/5u_6vpXbGTc?list=RD5u_6vpXbGTc"er="0"><img src="yohannis.jpg" alt="yohannis"/></a></th></span>
+<th><a href="https://www.youtube.com/embed/9Zbs2W4qNZg"><img src="fasildemoz.jpg" alt="fasil" /></a></th>
+<th><a href="https://www.youtube.com/embed/BFJy3Wp19ag"><img src="gizachew.jpg" alt="gizachew" /></a></th>
+<th><a href="https://www.youtube.com/embed/kpGyQ6ro_wc" width="201" height="120" ><img src="selamawit.jpg" alt="selamawit" /></a></th>
+</tr>
+<tr>
+<td><a href="https://www.youtube.com/embed/ttn1Xhf8qCU?list=RDttn1Xhf8qCU"  width="201" height="120"><img src="yezena.jpg"/></a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr id="tabb">
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+</tr>
+<tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+</tr>
+<tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+</tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td></tr>
+<tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+</tr>
+<tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+</tr>
+<tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+</tr>
+<tr>
+<td>video</td>
+<td>video</td>
+<td>video</td>
+<td>video</td></tr>
+</table>
+</div>
+<ul class="pagination">
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li><a href="#">5</a></li>
+</ul>
+<p>Translate this page:</p>
+
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+  document.getElementById("time").innerHTML="the time is good";
+</script>
+
+<div id="demo">
+<ul><li>info</li>
+<li>career</li>
+<li>advice</li>
+<li>jobs</li>
+<li> resource</li>
+<li>application</li>
+<li>resume</li>
+<li>management</li>
+<li>success</li></ul></div>
+
+<p id="time"></p>
+</div>
+<!--<script>
+document.getElementById("time").innerHTML=Date();</script> 
+<script>
+function blinker() {
+	$('.blinking').fadeOut(500);
+	$('.blinking').fadeIn(500);
+}
+setInterval(blinker, 1000);
+</script>-->
+
+
+<!-- this script got from www.javascriptfreecode.com coded by: Krishna Eydat-->
+<SCRIPT language=JavaScript>
+var NS4 = (document.layers);    
+var IE4 = (document.all);
+var win = window;    
+var n   = 0;
+function findInPage(str) {
+  var txt, i, found;
+  if (str == "")
+    return false;
+  if (NS4) {
+    if (!win.find(str))
+      while(win.find(str, false, true))
+        n++;
+    else
+      n++;
+    if (n == 0)
+      alert("Not found.");
+  }
+  if (IE4) {
+    txt = win.document.body.createTextRange();
+    for (i = 0; i <= n && (found = txt.findText(str)) != false; i++) {
+      txt.moveStart("character", 1);
+      txt.moveEnd("textedit");
+    }
+    if (found) {
+      txt.moveStart("character", -1);
+      txt.findText(str);
+      txt.select();
+      txt.scrollIntoView();
+      n++;
+    }
+    else {
+      if (n > 0) {
+        n = 0;
+        findInPage(str);
+      }
+      else
+        alert("Sorry, we couldn't find.Try again");
+   }
+  }
+  return false;
+}
+</SCRIPT>
+
+
+
+
+
+
+ 
+</body>
+
+</html>
