@@ -128,7 +128,6 @@ th, td{
 #linkss li{
 	list-style-type:none;
 	font-size:13px;
-	left:10px;
 	}
 
 tr:nth-child(even){
